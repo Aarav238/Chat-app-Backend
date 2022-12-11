@@ -10,7 +10,7 @@ const messageRoutes = require("./routes/messagesRoute");
 
 const app = express();
 const socket  = require("socket.io");
-require("dotenv").config();
+require("dotenv").config(path:"./.env"});
 
 
 app.use(cors());
